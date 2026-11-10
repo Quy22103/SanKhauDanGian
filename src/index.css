@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Be Vietnam Pro", system-ui, -apple-system, sans-serif;
+  --color-paper: #FBF9F5;
+  --color-limestone: #F2EDE4;
+  --color-ink: #1C1917;
+  --color-wood: #3F2E21;
+  --color-vermilion: #9A2A1E;
+  --color-gold: #B45309;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+}

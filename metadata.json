@@ -1,0 +1,6 @@
+{
+  "name": "Chèo Sân Đình Bắc Bộ",
+  "description": "Cổng thông tin lưu trữ, tra cứu và bảo tồn nghệ thuật Chèo sân đình và sân khấu dân gian Bắc Bộ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
